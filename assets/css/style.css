@@ -17,6 +17,7 @@ header {
 body {
     background-color: #e8e9ea;
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .button {
@@ -31,14 +32,14 @@ body {
 
 .task {
     background-color: #3093d6;
-    border-radius: 10%;
+    border-radius: 5px;
     border: none;
     padding: 4px 8px;
     color: white;
 }
 
 .section {
-    border-radius: 10%;
+    border-radius: 5px;
     border-color: lightgray;
     color: lightgray;
     background-color: white;
@@ -70,49 +71,50 @@ p {
 
 .editorial {
     background-color: #3093d6;
-    padding: 8px 8px;
+    padding: 8px 16px;
     font-size: small;
-    border-radius: 30%;
+    border-radius: 13px;
     color: white;
 }
 
 .q1 {
     background-color: #9c72e4;
-    padding: 8px 8px;
+    padding: 8px 16px;
     font-size: small;
-    border-radius: 30%;
+    border-radius: 13px;
     color: white;
 }
 
 .recruiting {
     background-color: #64c0a9;
-    padding: 8px 8px;
+    padding: 8px 16px;
     font-size: small;
-    border-radius: 30%;
+    border-radius: 13px;
     color: white;
 }
 
 .mobile {
     background-color: #f29e33;
-    padding: 8px 8px;
+    padding: 8px 16px;
     font-size: small;
-    border-radius: 30%;
+    border-radius: 13px;
     color: white;
 }
 
 .website {
     background-color: #d863a0;
-    padding: 8px 8px;
+    padding: 8px 16px;
     font-size: small;
-    border-radius: 30%;
+    border-radius: 13px;
     color: white;
+
 }
 
 .sales {
     background-color: #b0c926;
-    padding: 8px 8px;
+    padding: 8px 16px;
     font-size: small;
-    border-radius: 30%;
+    border-radius: 13px;
     color: white;
 }
 
@@ -133,4 +135,22 @@ footer {
     margin-left: 150px;
     margin-right: 150px;
     background-color: white;
+}
+
+.v {
+
+    border-radius: 100%;
+    padding: 3px;
+    border: 1px solid green;
+    color: green;
+    font-size: 12px;
+
+}
+
+.x {
+    border-radius: 100%;
+    padding: 4px;
+    border: 1px solid red;
+    color: red;
+    font-size: 12px;
 }
